@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>这个页面只是测试各个功能的</title>
+	<link href="Kuro.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+<script language = JavaScript>
+	function password()
+	{
+		var testV = 1;
+		var pass1 = prompt('PassWord:', '');
+		while (testV < 3) 
+		{
+			if (!pass1) history.go(-1);
+			if (pass1 == "kuro09") 
+			{
+				
+				break;
+			}
+			testV += -1;
+			var pass1 = prompt('密码错误!请重新输入:');
+			
+		}
+		if (pass1 != "password" & testV == 3) history.go(-1);
+		return 0;
+
+	}
+	document.write(password());
+</script> 
+	
+	<div class="indexall"></div>
+	<div class="Pixvlink">
+		<div class="trite">Pixiv-Link</div>
+		<div class="underline"></div>
+		<div class="subtitle">————PixivLink.com让创作变得更简单。</div>
+		<div class="index-0"><a href="index.html"><img src="img/index-0.png"></a></div>
+	</div>
+	
+	<div class="text">
+		<div class="line3"></div>
+		
+		<div class="a"><a href="#">区块链</a></div>
+		<div class="b"><a href="#">区块链</a></div>
+		<div class="c"><a href="#">区块链</a></div>
+		<div class="d"><a href="#">区块链</a></div>
+		
+		<div class="e"><a href="#">区块链</a></div>
+		<div class="f"><a href="#">区块链</a></div>
+		<div class="g"><a href="#">区块链</a></div>
+		<div class="h"><a href="#">区块链</a></div>
+		Date：05/31 简单的几个区块链测试
+	</div>
+	
+	
+	
+</body>
+</html>

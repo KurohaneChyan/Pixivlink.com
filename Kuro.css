@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*all*/
+body{ background: url("img/0.jpg") no-repeat center top;
+	  background-size:cover;
+	  -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+	  -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+	}
+html{ height: 100%;}
+*{ margin: 0; padding: 0;}
+a{ text-decoration: none;}
+
+
+
+/*index body*/
+/*.indexall{ width: 100%; height:722px; position:absolute;}*/
+.Pixvlink{ width: 100%; height: 180px;}
+.trite{ font-size: 80px; text-align: center; padding-top: 30px;
+		color: #FFFFFF; letter-spacing: 40px;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";}
+.underline{ width: 1200px; height: 1px; background: #FFFFFF; text-align: center; margin: 0 auto;}
+.subtitle{ font-size: 16px; text-align: center; padding-left: 380px; color: #FFFFFF;} 
+
+.index-0{ widows: 30px; height: 30px; position:absolute; margin-left: 5px; margin-top: -140px;}
+.index-0 img{ background: url("img/index-0.png") no-repeat; position:absolute;widows: 30px; height: 30px;}
+
+
+.Kurohane{ width: 100%; height: 500px;}
+.one{ width:250px; height:56px; background-color:rgba(0,0,0,0.4);
+	  font-family:"Comic Sans MS", cursive; position:absolute; left:50%; margin-left:-125px; margin-top:50px;
+	  font-size:40px; text-align:center; border-radius:15px; padding:10px;}
+.one a{ color:#FFF;}
+.one:hover{ background:rgba(255,255,255,0.6);}
+.two{ width:250px; height:56px; background-color:rgba(0,0,0,0.4);
+	  font-family:"Comic Sans MS", cursive; position:absolute; left:50%; margin-left:-125px; margin-top:150px;
+	  font-size:40px; text-align:center; border-radius:15px; padding:10px;}
+.two a{ color:#FFF;}
+.two:hover{ background:rgba(255,0,0,0.6);}
+
+.shirohane{ width: 100%; height: 22px; background-color:rgba(255,180,0,0.2); z-index:9999;
+			position:fixed; left:0px; bottom:0px;}
+.bottom{ font-size: 16px; color:#8B8B7A; font-family:"Comic Sans MS", cursive;}
+.bottom a{ color:#8B8B7A;}
+
+
+
+
+/*link body*/
+.process{ width: 100%; height: 200px;}
+
+
+.plan{  width: 180px; height: 50px; background:rgba(0,255,0,0.6);
+		font-family:"Comic Sans MS", cursive;	position:absolute; float: left;
+		font-size:40px; text-align:center; border-radius:15px; padding:10px;
+		left: 15%; margin-top: 50px;}
+.plan a{ color: #FFFFFF;}
+.plan:hover{ background:url("img/1-1.png") no-repeat center top;background-size: 100%; padding-top: 60px;}
+
+.Fundraising{ width: 180px; height: 50px; background:rgba(0,255,0,0.6);
+				font-family:"Comic Sans MS", cursive;	position:absolute; float: left;
+				font-size:40px; text-align:center; border-radius:15px; padding:10px;
+				left: 35%; margin-top: 50px;}
+.Fundraising a{ color: #FFFFFF;}
+.Fundraising:hover{ background:url("img/2-1.png") no-repeat center top;background-size: 100%;  padding-top: 60px;}
+
+.develop{  width: 180px; height: 50px; background:rgba(0,255,0,0.6);
+		   font-family:"Comic Sans MS", cursive;	position:absolute; float: left;
+		   font-size:40px; text-align:center; border-radius:15px; padding:10px;
+		   left: 55%;margin-top: 50px;}
+.develop a{ color: #FFFFFF;}
+.develop:hover{ background:url("img/3-1.png") no-repeat center top;background-size: 100%;  padding-top: 60px;}
+
+.closebeta{  width: 180px; height: 50px; background:rgba(255,0,0,0.6);
+		     font-family:"Comic Sans MS", cursive;	position:absolute; float: left;
+			 font-size:40px; text-align:center; border-radius:15px; padding:10px;
+			 left: 75%; margin-top: 50px;}
+.closebeta a{ color: #FFFFFF;}
+.closebeta:hover{ background:url("img/4-0-1.png")no-repeat center top;background-size: 100%;  padding-top: 60px;}
+
+.line0{ width: 150px; height: 4px; background:rgba(236,105,65,0.5); position:absolute;
+		left: 26.4%; margin-top: 85.5px;}
+.line1{ width: 150px; height: 4px; background:rgba(236,105,65,0.5); position:absolute;
+		left: 46.4%; margin-top: 85.5px;}
+.line2{ width: 150px; height: 4px; background:rgba(255,255,255,0.5); position:absolute;
+		left: 66.4%; margin-top: 85.5px;}
+
+.downloads{ width: 100%; height: 320px;}
+.down{  width: 190px; height: 60px; background:rgba(0,0,0,0.6);
+		font-family:"Comic Sans MS", cursive;	position:absolute; float: left;
+		font-size:40px; text-align:center; border-radius:15px; padding:10px;
+		left: 44.2%; margin-top: 100px;}
+.down a{ color: #FFFFFF;}
+.down:hover{ background:rgba(0,0,0,0.8); }
+
+
+
+/*hacking body*/
+.text{ width: 100%; height: 500px; margin-top: 50px; background:rgba(255,255,255,0.6);}
+.line3{ width: 2px; height: 500px; background: #000000;  position:absolute;  left: 49.9%;}
+.a{ width: 300px; height: 120px; background:rgba(255,255,0,0.6); position:absolute;font-family:"Comic Sans MS", cursive; left: 6%; margin-top: 6%; text-align: center;}
+.a a{  font-size: 80px; color: #000000;}
+.a:hover{ background:rgba(0,0,0,0.6); }
+
+.b{ width: 300px; height: 120px; background:rgba(255,255,0,0.6); position:absolute;font-family:"Comic Sans MS", cursive; left: 26%; margin-top: 6%; text-align: center;}
+.b a{  font-size: 80px; color: #000000;}
+.b:hover{ background:rgba(0,0,0,0.6); }
+
+.c{ width: 300px; height: 120px; background:rgba(255,255,0,0.6); position:absolute;font-family:"Comic Sans MS", cursive; left: 6%; margin-top: 16%; text-align: center;}
+.c a{  font-size: 80px; color: #000000;}
+.c:hover{ background:rgba(0,0,0,0.6); }
+
+.d{ width: 300px; height: 120px; background:rgba(255,255,0,0.6); position:absolute;font-family:"Comic Sans MS", cursive; left: 26%; margin-top: 16%; text-align: center;}
+.d a{  font-size: 80px; color: #000000;}
+.d:hover{ background:rgba(0,0,0,0.6); }
+
+
+.e{ width: 300px; height: 120px; background:rgba(255,255,0,0.6); position:absolute;font-family:"Comic Sans MS", cursive; left: 55%; margin-top: 6%; text-align: center;}
+.e a{  font-size: 80px; color: #000000;}
+.e:hover{ background:rgba(0,0,0,0.6); }
+
+.f{ width: 300px; height: 120px; background:rgba(255,255,0,0.6); position:absolute;font-family:"Comic Sans MS", cursive; left: 75%; margin-top: 6%; text-align: center;}
+.f a{  font-size: 80px; color: #000000;}
+.f:hover{ background:rgba(0,0,0,0.6); }
+
+.g{ width: 300px; height: 120px; background:rgba(255,255,0,0.6); position:absolute;font-family:"Comic Sans MS", cursive; left: 55%; margin-top: 16%; text-align: center;}
+.g a{  font-size: 80px; color: #000000;}
+.g:hover{ background:rgba(0,0,0,0.6); }
+
+.h{ width: 300px; height: 120px; background:rgba(255,255,0,0.6); position:absolute;font-family:"Comic Sans MS", cursive; left: 75%; margin-top: 16%; text-align: center;}
+.h a{  font-size: 80px; color: #000000;}
+.h:hover{ background:rgba(0,0,0,0.6); }
+
+
+
